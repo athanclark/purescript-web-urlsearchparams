@@ -1,0 +1,25 @@
+{
+  "name": "purescript-web-urlsearchparams",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/athanclark/purescript-web-urlsearchparams.git"
+  },
+  "dependencies": {
+    "purescript-prelude": "^4.1.0",
+    "purescript-iterable": "git://github.com/athanclark/purescript-iterable.git#8d7577554024438a59258cf6733ad056441e3c56",
+    "purescript-tuples-native": "^2.0.0",
+    "purescript-nullable": "^4.1.1",
+    "purescript-foreign-object": "^1.1.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^4.0.0",
+    "purescript-quickcheck": "^5.0.0"
+  }
+}
