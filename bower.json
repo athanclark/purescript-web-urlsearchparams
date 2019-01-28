@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "purescript-prelude": "^4.1.0",
-    "purescript-iterable": "git://github.com/athanclark/purescript-iterable.git#8d7577554024438a59258cf6733ad056441e3c56",
+    "purescript-iterable": "^2.0.0",
     "purescript-tuples-native": "^2.0.0",
     "purescript-nullable": "^4.1.1",
     "purescript-foreign-object": "^1.1.0"
