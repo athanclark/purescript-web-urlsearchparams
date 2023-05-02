@@ -4,12 +4,12 @@ module Web.URLSearchParams
   ) where
 
 import Prelude (Unit, (<$>), (<<<), class Show)
-import Data.Tuple.Native (T2)
 import Data.Nullable (Nullable, toMaybe)
 import Data.Maybe (Maybe)
 import Data.Iterable (Iterator)
-import Foreign.Object (Object)
+import Data.Tuple.Native (T2)
 import Effect (Effect)
+import Foreign.Object (Object)
 import Effect.Unsafe (unsafePerformEffect)
 import Effect.Uncurried (EffectFn1, EffectFn2, EffectFn3, runEffectFn1, runEffectFn2, runEffectFn3, mkEffectFn2)
 
